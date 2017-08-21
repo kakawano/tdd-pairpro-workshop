@@ -27,7 +27,28 @@ public class FizzBuzzTest {
     @Test
     public void should_return_FizzBuzz_when_passed_15() {
         String expected = "FizzBuzz";
-        String actuals = FizzBuzz.fizzbuzz(15);
-        assertEquals(expected, actuals);
+        String actual = FizzBuzz.fizzbuzz(15);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void should_return_empty_string_when_passed_lower_than_1() {
+        String expected = "";
+        String actual = FizzBuzz.fizzbuzz(0);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void should_return_empty_string_when_passed_upper_than_100() {
+        String expected = "";
+        String actual = FizzBuzz.fizzbuzz(101);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void should_return_Buzz_when_passed_100() {
+        String expected = "Buzz";
+        String actual = FizzBuzz.fizzbuzz(100);
+        assertEquals(expected, actual);
     }
 }
