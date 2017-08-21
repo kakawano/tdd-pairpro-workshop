@@ -15,7 +15,7 @@ public class FizzBuzzTest {
     public void should_return_Buzz_when_passed_multiples_of_5() {
         String expected = "Buzz";
         assertEquals(expected, FizzBuzz.fizzbuzz(5));
-        assertEquals(expected, FizzBuzz.fizzbuzz(35));
+        assertEquals(expected, FizzBuzz.fizzbuzz(50));
         assertEquals(expected, FizzBuzz.fizzbuzz(100));
     }
 
@@ -23,7 +23,7 @@ public class FizzBuzzTest {
     public void should_return_FizzBuzz_when_passed_multiples_of_15() {
         String expected = "FizzBuzz";
         assertEquals(expected, FizzBuzz.fizzbuzz(15));
-        assertEquals(expected, FizzBuzz.fizzbuzz(30));
+        assertEquals(expected, FizzBuzz.fizzbuzz(60));
         assertEquals(expected, FizzBuzz.fizzbuzz(90));
     }
 
@@ -40,14 +40,23 @@ public class FizzBuzzTest {
     public void should_return_empty_string_when_passed_upper_than_100() {
         String expected = "";
         assertEquals(expected, FizzBuzz.fizzbuzz(101));
-        assertEquals(expected, FizzBuzz.fizzbuzz(102));
         assertEquals(expected, FizzBuzz.fizzbuzz(105));
         assertEquals(expected, FizzBuzz.fizzbuzz(110));
+        assertEquals(expected, FizzBuzz.fizzbuzz(123));
     }
 
     @Test
     public void should_return_input_number_when_passed_other_than_multiples_of_3and5and15() {
         assertEquals("1", FizzBuzz.fizzbuzz(1));
         assertEquals("79", FizzBuzz.fizzbuzz(79));
+    }
+
+    @Test
+    public void should_return_Fizz_when_passed_that_contain_3() {
+        String expected = "Fizz";
+        assertEquals(expected, FizzBuzz.fizzbuzz(3));
+        assertEquals(expected, FizzBuzz.fizzbuzz(35));
+        assertEquals(expected, FizzBuzz.fizzbuzz(30));
+        assertEquals(expected, FizzBuzz.fizzbuzz(93));
     }
 }

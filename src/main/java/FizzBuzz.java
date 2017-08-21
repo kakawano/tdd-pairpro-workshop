@@ -4,6 +4,10 @@ public class FizzBuzz {
             return "";
         }
 
+        if (("" + n).contains("3")) {
+            return "Fizz";
+        }
+
         if (n % 15 == 0) {
             return "FizzBuzz";
         }
