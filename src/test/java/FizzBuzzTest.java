@@ -16,4 +16,11 @@ public class FizzBuzzTest {
         String actual = FizzBuzz.fizzbuzz(3);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void should_return_Buzz_when_passed_5() {
+        String expected = "Buzz";
+        String actual = FizzBuzz.fizzbuzz(5);
+        assertEquals(expected, actual);
+    }
 }
