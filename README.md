@@ -22,7 +22,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q05/src/main/java/FizzBuzz.java">解答例(実装)</a><br>      
       <br>
   実習５：　事前準備<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q0６/src/test/java/FizzBuzzTest.java">テストコード</a><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q06/src/test/java/FizzBuzzTest.java">テストコード</a><br>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q06/src/main/java/FizzBuzz.java">実装</a><br>      
               <br>
   実習５：　3を含む数の場合は、優先して"Fizz"を返却する<br>
