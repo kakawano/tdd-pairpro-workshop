@@ -1,7 +1,11 @@
 # tdd-pairpro-workshop
 
 ## Cyber-dojo URL
-   1: http://ec2-52-69-111-30.ap-northeast-1.compute.amazonaws.com/enter/show/C1FE89B699
+   1:http://ec2-52-69-111-30.ap-northeast-1.compute.amazonaws.com/enter/show/632BED48BE <br>
+   2:http://ec2-52-199-94-132.ap-northeast-1.compute.amazonaws.com/enter/show/7DE0285EE3 <br>
+   3:http://ec2-52-68-4-201.ap-northeast-1.compute.amazonaws.com/enter/show/AC3564FFD5 <br>
+   4:http://ec2-54-178-215-120.ap-northeast-1.compute.amazonaws.com/enter/show/D1C5C46912 <br>
+   5:http://ec2-13-114-90-184.ap-northeast-1.compute.amazonaws.com/enter/show/C4E9F765B1 <br>
    
    
 ## 解答例
