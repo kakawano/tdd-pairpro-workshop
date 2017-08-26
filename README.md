@@ -17,7 +17,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q03/src/test/java/FizzBuzzTest.java">解答例(テスト)</a><br>
       &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q03/src/main/java/FizzBuzz.java">解答例(実装)</a><br>      
       <br>
-  実習3: 15の倍数の場合、"FizzBuzz"を返却する　<br>
+  実習3: 3と５の倍数の場合、"FizzBuzz"を返却する　<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q04/src/test/java/FizzBuzzTest.java">解答例(テスト)</a><br>
       &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kakawano/tdd-pairpro-workshop/blob/q04/src/main/java/FizzBuzz.java">解答例(実装)</a><br>
       <br>
